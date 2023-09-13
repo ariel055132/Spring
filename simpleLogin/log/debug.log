@@ -1,0 +1,20 @@
+2023-09-13 23:19:27 [main] INFO  com.example.simplelogin.SimpleLoginApplication - Starting SimpleLoginApplication using Java 17.0.8 with PID 38766 (/Users/adrian/IdeaProjects/simpleLogin/target/classes started by adrian in /Users/adrian/IdeaProjects/simpleLogin)
+2023-09-13 23:19:27 [main] INFO  com.example.simplelogin.SimpleLoginApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-13 23:19:27 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2023-09-13 23:19:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-13 23:19:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-13 23:19:27 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-13 23:19:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 397 ms
+2023-09-13 23:19:27 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2023-09-13 23:19:27 [main] INFO  com.example.simplelogin.SimpleLoginApplication - Started SimpleLoginApplication in 0.85 seconds (process running for 1.045)
+2023-09-13 23:19:27 [main] INFO  com.example.simplelogin.SimpleLoginApplication - Start application
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  com.example.simplelogin.api.UserAPI - Start login
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75f50291
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-13 23:19:48 [http-nio-8090-exec-1] INFO  com.example.simplelogin.api.UserAPI - Login Success For adrian
+2023-09-13 23:20:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-13 23:20:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
